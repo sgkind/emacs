@@ -7,6 +7,8 @@
 (require 'init-miscellaneous)
 (require 'init-company-mode)
 (require 'init-rust)
+(require 'init-auto-complete)
+
 
 (provide 'init)
 
