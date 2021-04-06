@@ -1,5 +1,4 @@
 ;;; company mode
-(require 'init-elpa)
 (require-package 'company)
 (require 'company)
 

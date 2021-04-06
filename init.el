@@ -1,6 +1,11 @@
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 
-(require 'init-elpa)
+(setq package-archives '(("gnu" . "http://mirrors.ustc.edu.cn/elpa/gun/")
+			 ("melpa" . "http://mirrors.ustc.edu.cn/elpa/melpa/")
+			 ("melpa-stable" . "http://mirrors.ustc.edu.cn/elpa/melpa-stable/")
+			 ("org" . "http://mirrors.ustc.edu.cn/elpa/org/")))
+
+(require 'init-func)
 (require 'init-ui)
 (require 'init-editing)
 (require 'init-navigation)
@@ -8,7 +13,9 @@
 (require 'init-company-mode)
 (require 'init-rust)
 (require 'init-auto-complete)
+(require 'init-lsp-mode)
 
+;; 显示行号
 
 (provide 'init)
 

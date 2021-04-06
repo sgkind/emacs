@@ -1,4 +1,3 @@
-(require 'init-elpa)
 (require-package 'atom-one-dark-theme)
 (require-package 'golden-ratio)
 

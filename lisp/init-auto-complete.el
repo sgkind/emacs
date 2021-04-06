@@ -4,7 +4,6 @@
 (require 'auto-complete)
 (require 'auto-complete-config)
 
-(require 'init-elpa)
 (require-package 'popup)
 
 ;; 开启全局设定（包含哪些模式在ac-modes里查看）

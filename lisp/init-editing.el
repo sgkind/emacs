@@ -1,4 +1,3 @@
-(require 'init-elpa)
 (require 'saveplace)
 (require-package 'rainbow-delimiters)
 (require-package 'flycheck)

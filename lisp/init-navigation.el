@@ -1,4 +1,3 @@
-(require 'init-elpa)
 (require 'ido)
 (require 'recentf)
 (require-package 'ido-completing-read+)

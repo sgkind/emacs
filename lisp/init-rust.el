@@ -1,5 +1,4 @@
 ;;; rust
-(require 'init-elpa)
 (require-package 'company)
 (require-package 'rust-mode)
 (require-package 'flycheck)
