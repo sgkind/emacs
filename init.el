@@ -14,6 +14,7 @@
 (require 'init-rust)
 (require 'init-auto-complete)
 (require 'init-lsp-mode)
+(require 'init-org)
 
 ;; 显示行号
 
