@@ -1,3 +1,3 @@
-[submodule "plugin/auto-complete"]
-	path = plugin/auto-complete
+[submodule "plugins/auto-complete"]
+	path = plugins/auto-complete
 	url = https://github.com/auto-complete/auto-complete.git
