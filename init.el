@@ -10,15 +10,18 @@
 (require 'init-editing)
 (require 'init-navigation)
 (require 'init-miscellaneous)
+(require 'init-org)
 (require 'init-company-mode)
-(require 'init-rust)
 (require 'init-auto-complete)
 (require 'init-lsp-mode)
-(require 'init-org)
+
+(require 'init-rust)
 
 ;; 显示行号
 
 (provide 'init)
+
+(toggle-truncate-lines 1)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

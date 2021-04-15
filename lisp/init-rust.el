@@ -5,5 +5,6 @@
 (require-package 'flycheck-rust)
 
 (require 'rust-mode)
+(add-hook 'rust-mode-hook #'lsp)
 
 (provide 'init-rust)
